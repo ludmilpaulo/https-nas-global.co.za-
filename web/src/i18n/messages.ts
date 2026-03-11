@@ -122,6 +122,8 @@ export const MESSAGES: Record<Locale, Record<string, string>> = {
     "form.error": "Something went wrong. Please email sales@nas-global.co.za.",
 
     // Privacy
+
+    // Privacy
     "privacy.badge": "Privacy",
     "privacy.title": "Privacy Policy",
     "privacy.updated": "This notice explains how NAS Global (Pty) handles your personal information when you contact us or request a quotation.",
@@ -146,6 +148,27 @@ export const MESSAGES: Record<Locale, Record<string, string>> = {
     "privacy.section.7.title": "7. Contact us",
     "privacy.section.7.body":
       "If you have questions about this notice or how we handle your personal information, please contact us at sales@nas-global.co.za.",
+
+    // FAQ
+    "faq.badge": "FAQ",
+    "faq.title": "Frequently Asked Questions",
+    "faq.lead":
+      "Short answers to common questions about how NAS Global works, how we handle quotations, and what you can expect when working with us.",
+    "faq.q1.question": "What information do you need to prepare a quotation?",
+    "faq.q1.answer":
+      "Please share part numbers or descriptions, required quantities, destination country or site, and any timing or technical constraints. The more detail you provide, the faster and more accurate our quotation can be.",
+    "faq.q2.question": "Which industries do you serve?",
+    "faq.q2.answer":
+      "We support Oil & Gas, Petrochemical, Mining, Construction, Power Generation, and Agricultural sectors, as well as related industrial projects that require reliable sourcing and logistics.",
+    "faq.q3.question": "Can you support international deliveries?",
+    "faq.q3.answer":
+      "Yes. We work with multiple Incoterms delivery models and logistics partners to support international destinations. We will recommend suitable options based on your project requirements.",
+    "faq.q4.question": "Do you work directly with OEM brands?",
+    "faq.q4.answer":
+      "We have access to multiple OEM brands and trusted suppliers. Our goal is to source according to your technical specification, quality requirements, and budget.",
+    "faq.q5.question": "How can I get in touch with NAS Global?",
+    "faq.q5.answer":
+      "You can use the contact form on this website or email us directly at sales@nas-global.co.za. We aim to respond within one business day.",
   },
   pt: {
     // Nav
@@ -293,6 +316,27 @@ export const MESSAGES: Record<Locale, Record<string, string>> = {
     "privacy.section.7.title": "7. Fale conosco",
     "privacy.section.7.body":
       "Se você tiver dúvidas sobre este aviso ou sobre como tratamos seus dados pessoais, entre em contato conosco pelo e-mail sales@nas-global.co.za.",
+
+    // FAQ
+    "faq.badge": "FAQ",
+    "faq.title": "Perguntas frequentes",
+    "faq.lead":
+      "Respostas rápidas para dúvidas comuns sobre como a NAS Global trabalha, como tratamos cotações e o que você pode esperar ao trabalhar conosco.",
+    "faq.q1.question": "Quais informações vocês precisam para preparar uma cotação?",
+    "faq.q1.answer":
+      "Compartilhe códigos ou descrições das peças, quantidades necessárias, país ou local de destino e qualquer restrição de prazo ou requisito técnico. Quanto mais detalhes, mais rápida e precisa será a cotação.",
+    "faq.q2.question": "Quais setores vocês atendem?",
+    "faq.q2.answer":
+      "Atendemos os setores de Óleo e Gás, Petroquímico, Mineração, Construção, Geração de Energia e Agrícola, além de projetos industriais relacionados que exigem sourcing e logística confiáveis.",
+    "faq.q3.question": "Vocês apoiam entregas internacionais?",
+    "faq.q3.answer":
+      "Sim. Trabalhamos com vários modelos de entrega baseados em Incoterms e parceiros logísticos para atender destinos internacionais. Recomendamos as opções adequadas conforme as necessidades do seu projeto.",
+    "faq.q4.question": "Vocês trabalham diretamente com marcas OEM?",
+    "faq.q4.answer":
+      "Temos acesso a diversas marcas OEM e fornecedores confiáveis. Nosso objetivo é fornecer de acordo com suas especificações técnicas, requisitos de qualidade e orçamento.",
+    "faq.q5.question": "Como posso entrar em contato com a NAS Global?",
+    "faq.q5.answer":
+      "Você pode usar o formulário de contato neste site ou enviar um e-mail diretamente para sales@nas-global.co.za. Nosso objetivo é responder em até um dia útil.",
   },
 };
 

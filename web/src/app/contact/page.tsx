@@ -1,18 +1,10 @@
-import type { Metadata } from "next";
+'use client';
+
 import { Mail, Phone, ShieldCheck } from "lucide-react";
 
 import { Container } from "@/components/container";
 import { ContactForm } from "@/components/contact-form";
 import { useT } from "@/i18n/provider";
-
-export const metadata: Metadata = {
-  title: "Contact NAS Global",
-  description:
-    "Contact NAS Global to request quotations and discuss sourcing, logistics, and support for your engineering and industrial projects.",
-  alternates: {
-    canonical: "https://nas-global.co.za/contact",
-  },
-};
 
 export default function ContactPage() {
   const t = useT();

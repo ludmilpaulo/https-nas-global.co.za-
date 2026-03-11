@@ -36,6 +36,9 @@ export function SiteFooter() {
                 <Link className="text-sm text-foreground/75 hover:text-foreground" href="/contact">
                   {t("nav.contact")}
                 </Link>
+                <Link className="text-sm text-foreground/75 hover:text-foreground" href="/faq">
+                  {t("faq.title")}
+                </Link>
               </div>
             </div>
             <div>

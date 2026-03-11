@@ -1,11 +1,7 @@
-import type { Metadata } from "next";
+"use client";
 
 import { Container } from "@/components/container";
 import { useT } from "@/i18n/provider";
-
-export const metadata: Metadata = {
-  title: "Privacy Policy",
-};
 
 export default function PrivacyPage() {
   const t = useT();
