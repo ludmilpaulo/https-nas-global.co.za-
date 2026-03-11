@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import type { Locale } from "@/i18n/messages";
 import { detectLocaleFromHeaders } from "@/i18n/server";
 import { I18nProvider } from "@/i18n/provider";
 
@@ -62,7 +63,12 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const locale = await detectLocaleFromHeaders();
+  let locale: Locale = "en";
+  try {
+    locale = await detectLocaleFromHeaders();
+  } catch {
+    // Ensure app always renders even if locale detection fails (e.g. on Vercel edge)
+  }
   return (
     <html lang={locale} className="h-full">
       <body
