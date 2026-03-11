@@ -1,18 +1,10 @@
-import type { Metadata } from "next";
+"use client";
+
 import { ArrowRight, ClipboardList, Headset, Truck } from "lucide-react";
 
 import { ButtonLink } from "@/components/button";
 import { Container } from "@/components/container";
 import { useT } from "@/i18n/provider";
-
-export const metadata: Metadata = {
-  title: "Engineering Procurement & Services",
-  description:
-    "Explore NAS Global services: engineering procurement, logistics and delivery models, and responsive after-sales support for industrial projects.",
-  alternates: {
-    canonical: "https://nas-global.co.za/services",
-  },
-};
 
 export default function ServicesPage() {
   const t = useT();

@@ -1,18 +1,10 @@
-import type { Metadata } from "next";
+"use client";
+
 import { ArrowRight } from "lucide-react";
 
 import { ButtonLink } from "@/components/button";
 import { Container } from "@/components/container";
 import { useT } from "@/i18n/provider";
-
-export const metadata: Metadata = {
-  title: "About NAS Global",
-  description:
-    "Learn about NAS Global, a South Africa–based engineering procurement and services partner focused on reliable sourcing, logistics, and customer satisfaction.",
-  alternates: {
-    canonical: "https://nas-global.co.za/about",
-  },
-};
 
 export default function AboutPage() {
   const t = useT();
