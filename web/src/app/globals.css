@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b1220;
+  --foreground: #eaf0ff;
+  --card: rgba(255, 255, 255, 0.06);
+  --border: rgba(255, 255, 255, 0.12);
+  --muted: rgba(234, 240, 255, 0.72);
+  --brand: #5b8cff;
+  --brand-2: #18d2a7;
+  --shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+::selection {
+  background: color-mix(in srgb, var(--brand) 35%, transparent);
+}
+
+/* Smooth edges for gradient backgrounds */
+html {
+  color-scheme: dark;
+}
