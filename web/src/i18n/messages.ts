@@ -120,6 +120,32 @@ export const MESSAGES: Record<Locale, Record<string, string>> = {
     "form.validation.email": "Please enter a valid email address.",
     "form.validation.message": "Please add a short message (10+ characters).",
     "form.error": "Something went wrong. Please email sales@nas-global.co.za.",
+
+    // Privacy
+    "privacy.badge": "Privacy",
+    "privacy.title": "Privacy Policy",
+    "privacy.updated": "This notice explains how NAS Global (Pty) handles your personal information when you contact us or request a quotation.",
+    "privacy.section.1.title": "1. Who we are",
+    "privacy.section.1.body":
+      "NAS Global (Pty) is an engineering procurement and services partner based in South Africa. When you contact us, NAS Global acts as the responsible party for the personal information you provide.",
+    "privacy.section.2.title": "2. What information we collect",
+    "privacy.section.2.body":
+      "We collect the information you choose to share with us, such as your name, email address, company or site details, phone number, and the content of your message, including technical specifications and delivery information needed to prepare a quotation.",
+    "privacy.section.3.title": "3. How we use your information",
+    "privacy.section.3.body":
+      "We use your information to respond to your enquiry, prepare and send quotations, follow up on requests, and maintain basic records of our communications. We do not use your details for unrelated marketing without your consent.",
+    "privacy.section.4.title": "4. Legal basis and retention",
+    "privacy.section.4.body":
+      "We process your personal information based on your request for information or a quotation and our legitimate interest in operating our business. We keep your details only as long as necessary for these purposes and to meet applicable legal or record‑keeping requirements.",
+    "privacy.section.5.title": "5. How we share information",
+    "privacy.section.5.body":
+      "We may share relevant information with trusted suppliers, logistics partners, or service providers when needed to source products, prepare quotations, or arrange delivery. We do not sell your personal information.",
+    "privacy.section.6.title": "6. Your rights",
+    "privacy.section.6.body":
+      "Depending on applicable law, you may have rights to access, correct, update, or request deletion of your personal information, or to object to certain types of processing. We will respond to reasonable requests in line with our legal obligations.",
+    "privacy.section.7.title": "7. Contact us",
+    "privacy.section.7.body":
+      "If you have questions about this notice or how we handle your personal information, please contact us at sales@nas-global.co.za.",
   },
   pt: {
     // Nav
@@ -240,6 +266,33 @@ export const MESSAGES: Record<Locale, Record<string, string>> = {
     "form.validation.email": "Por favor, informe um e-mail válido.",
     "form.validation.message": "Por favor, escreva uma mensagem (10+ caracteres).",
     "form.error": "Algo deu errado. Envie um e-mail para sales@nas-global.co.za.",
+
+    // Privacy
+    "privacy.badge": "Privacidade",
+    "privacy.title": "Política de Privacidade",
+    "privacy.updated":
+      "Este aviso explica como a NAS Global (Pty) trata os seus dados pessoais quando você entra em contato conosco ou solicita uma cotação.",
+    "privacy.section.1.title": "1. Quem somos",
+    "privacy.section.1.body":
+      "A NAS Global (Pty) é um parceiro de compras e serviços de engenharia sediado na África do Sul. Quando você entra em contato conosco, a NAS Global atua como a responsável pelo tratamento dos dados pessoais que você fornece.",
+    "privacy.section.2.title": "2. Quais informações coletamos",
+    "privacy.section.2.body":
+      "Coletamos as informações que você decide compartilhar conosco, como nome, e-mail, empresa ou site, número de telefone e o conteúdo da sua mensagem, incluindo especificações técnicas e informações de entrega necessárias para preparar uma cotação.",
+    "privacy.section.3.title": "3. Como usamos suas informações",
+    "privacy.section.3.body":
+      "Usamos suas informações para responder à sua solicitação, preparar e enviar cotações, fazer acompanhamentos e manter registros básicos das nossas comunicações. Não usamos seus dados para marketing não relacionado sem o seu consentimento.",
+    "privacy.section.4.title": "4. Base legal e retenção",
+    "privacy.section.4.body":
+      "Tratamos seus dados pessoais com base na sua solicitação de informações ou cotação e em nosso interesse legítimo em operar o negócio. Mantemos seus dados apenas pelo tempo necessário para esses fins e para cumprir exigências legais ou de registros aplicáveis.",
+    "privacy.section.5.title": "5. Como compartilhamos informações",
+    "privacy.section.5.body":
+      "Podemos compartilhar informações relevantes com fornecedores confiáveis, parceiros logísticos ou prestadores de serviço quando necessário para buscar produtos, preparar cotações ou organizar a entrega. Não vendemos seus dados pessoais.",
+    "privacy.section.6.title": "6. Seus direitos",
+    "privacy.section.6.body":
+      "Dependendo da legislação aplicável, você pode ter o direito de acessar, corrigir, atualizar ou solicitar a exclusão dos seus dados pessoais, ou de se opor a determinados tipos de tratamento. Responderemos a solicitações razoáveis em conformidade com nossas obrigações legais.",
+    "privacy.section.7.title": "7. Fale conosco",
+    "privacy.section.7.body":
+      "Se você tiver dúvidas sobre este aviso ou sobre como tratamos seus dados pessoais, entre em contato conosco pelo e-mail sales@nas-global.co.za.",
   },
 };
 
