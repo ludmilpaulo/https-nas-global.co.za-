@@ -1,3 +1,5 @@
+'use client';
+
 import Script from "next/script";
 import { ArrowRight, CheckCircle2, Globe2, Package, ShieldCheck } from "lucide-react";
 

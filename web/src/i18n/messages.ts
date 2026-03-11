@@ -16,7 +16,7 @@ export const MESSAGES: Record<Locale, Record<string, string>> = {
     "footer.industries": "Industries",
     "footer.contact": "Contact",
     "footer.rights": "All rights reserved.",
-    "footer.builtWith": "Built with Next.js + Django + React Native",
+    "footer.builtWith": "Powered by Maindo Digital Agency",
     "footer.southAfrica": "South Africa",
 
     // Home
@@ -136,7 +136,7 @@ export const MESSAGES: Record<Locale, Record<string, string>> = {
     "footer.industries": "Indústrias",
     "footer.contact": "Contato",
     "footer.rights": "Todos os direitos reservados.",
-    "footer.builtWith": "Feito com Next.js + Django + React Native",
+    "footer.builtWith": "Desenvolvido pela Maindo Digital Agency",
     "footer.southAfrica": "África do Sul",
 
     // Home
