@@ -57,12 +57,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const locale = detectLocaleFromHeaders();
+  const locale = await detectLocaleFromHeaders();
   return (
     <html lang={locale} className="h-full">
       <body
